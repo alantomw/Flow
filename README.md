@@ -1,6 +1,6 @@
 # 🎯 YouTube Blocker - Installation Instructions
 
-## Overview
+## 🌐 Overview
 This extension provides two main features and works on all major Chromium-based browsers (such as Chrome, Edge, Brave, Opera, and Vivaldi):
 1. **YouTube FYP Blocker**: Hides video recommendations, channels, and notifications on YouTube while preserving search functionality
 2. **New Tab Blocker**: Automatically closes new tabs and returns to the previous tab (except for links that open in new tabs)
