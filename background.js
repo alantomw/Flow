@@ -41,6 +41,7 @@ browserAPI.tabs.onCreated.addListener(async function(tab) {
     'brave://newtab/',
     'opera://newtab/',
     'vivaldi://newtab/',
+    'arc://newtab/',
     'about:blank'
   ];
 

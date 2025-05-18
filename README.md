@@ -1,20 +1,20 @@
 # YouTube Blocker - Installation Instructions
 
 ## Overview
-This Chrome extension provides two main features:
+This extension provides two main features and works on all major Chromium-based browsers (such as Chrome, Edge, Brave, Opera, and Vivaldi):
 1. **YouTube FYP Blocker**: Hides video recommendations, channels, and notifications on YouTube while preserving search functionality
 2. **New Tab Blocker**: Automatically closes new tabs and returns to the previous tab (except for links that open in new tabs)
 
 ## Installation Instructions
 
 ### Method 1: Loading the unpacked extension (Developer mode)
-1. Open Chrome and navigate to `chrome://extensions/`
+1. Open your Chromium-based browser (Chrome, Edge, Brave, Arc, Vivaldi, etc.) and navigate to `chrome://extensions/` (or your browser's extensions page)
 2. Enable "Developer mode" by toggling the switch in the top-right corner
 3. Click "Load unpacked" and select the extracted extension folder
 4. The extension should now appear in your extensions list and be active
 
 ### Method 2: Drag and drop installation
-1. Open Chrome and navigate to `chrome://extensions/`
+1. Open your Chromium-based browser and navigate to `chrome://extensions/` (or your browser's extensions page)
 2. Enable "Developer mode" by toggling the switch in the top-right corner
 3. Drag and drop the `.zip` file onto the extensions page
 4. Confirm any prompts that appear
@@ -22,8 +22,8 @@ This Chrome extension provides two main features:
 ## Using the Extension
 1. Click the extension icon in your browser toolbar to open the popup
 2. Use the checkboxes to toggle each feature on/off:
-   - **Block YouTube FYP**: Hides recommendations, channels, and notifications on YouTube
-   - **Auto Block New Tabs**: Prevents new tabs from being created (except for links)
+   - **Block FYP**: Hides recommendations, channels, and notifications on YouTube
+   - **Block New Tabs**: Prevents new tabs from being created (except for links)
 3. Settings are saved automatically and will persist between browser sessions
 
 ## Features
@@ -47,3 +47,4 @@ This Chrome extension provides two main features:
 
 ## Notes
 - This extension was created as a custom solution and is not available on the Chrome Web Store
+- Compatible with all major Chromium-based browsers (Chrome, Edge, Brave, Opera, Arc, Vivaldi, etc.)
