@@ -1,50 +1,70 @@
-# YouTube Blocker - Installation Instructions
+🎯 YouTube Blocker – Installation & Usage Guide
+A distraction-free browsing tool for YouTube and new tab management.
+Works on all major Chromium-based browsers: Chrome, Edge, Brave, Opera, Arc, Vivaldi, etc.
 
-## Overview
-This extension provides two main features and works on all major Chromium-based browsers (such as Chrome, Edge, Brave, Opera, and Vivaldi):
-1. **YouTube FYP Blocker**: Hides video recommendations, channels, and notifications on YouTube while preserving search functionality
-2. **New Tab Blocker**: Automatically closes new tabs and returns to the previous tab (except for links that open in new tabs)
+🚀 Features
+📵 YouTube FYP Blocker
+✅ Hides video recommendations (homepage & watch pages)
 
-## Installation Instructions
+✅ Removes channel suggestions
 
-### Method 1: Loading the unpacked extension (Developer mode)
-1. Open your Chromium-based browser (Chrome, Edge, Brave, Arc, Vivaldi, etc.) and navigate to `chrome://extensions/` (or your browser's extensions page)
-2. Enable "Developer mode" by toggling the switch in the top-right corner
-3. Click "Load unpacked" and select the extracted extension folder
-4. The extension should now appear in your extensions list and be active
+✅ Disables notifications
 
-### Method 2: Drag and drop installation
-1. Open your Chromium-based browser and navigate to `chrome://extensions/` (or your browser's extensions page)
-2. Enable "Developer mode" by toggling the switch in the top-right corner
-3. Drag and drop the `.zip` file onto the extensions page
-4. Confirm any prompts that appear
+✅ Keeps search functionality intact
 
-## Using the Extension
-1. Click the extension icon in your browser toolbar to open the popup
-2. Use the checkboxes to toggle each feature on/off:
-   - **Block FYP**: Hides recommendations, channels, and notifications on YouTube
-   - **Block New Tabs**: Prevents new tabs from being created (except for links)
-3. Settings are saved automatically and will persist between browser sessions
+✅ Toggleable via popup
 
-## Features
-- **YouTube FYP Blocking**:
-  - Hides video recommendations on homepage and watch pages
-  - Hides channel recommendations
-  - Hides notifications
-  - Preserves search functionality
-  - Toggle on/off via popup
+🚫 New Tab Blocker
+✅ Automatically closes new tabs (e.g., Ctrl+T or “New Tab” button)
 
-- **New Tab Blocking**:
-  - Automatically closes new tabs created by clicking "New Tab" or using Ctrl+T
-  - Returns focus to the previous tab
-  - Exempts links that open in new tabs
-  - Toggle on/off via popup
+✅ Returns focus to your previous tab
 
-## Troubleshooting
-- If the extension doesn't work after installation, try restarting your browser
-- Make sure both features are enabled in the popup
-- For YouTube blocking, refresh any open YouTube tabs after enabling the feature
+✅ Allows links that intentionally open new tabs
 
-## Notes
-- This extension was created as a custom solution and is not available on the Chrome Web Store
-- Compatible with all major Chromium-based browsers (Chrome, Edge, Brave, Opera, Arc, Vivaldi, etc.)
+✅ Toggleable via popup
+
+🔧 Installation Instructions
+📂 Method 1: Load Unpacked Extension (Developer Mode)
+Open your browser and go to chrome://extensions/ (or your browser instead of chrome)
+
+Enable Developer Mode (top-right toggle)
+
+Click Load unpacked
+
+Select the extracted extension folder
+✅ Done! The extension is now installed.
+
+📦 Method 2: Drag-and-Drop Installation
+Open your browser and go to chrome://extensions/ (or your browser instead of chrome)
+
+Enable Developer Mode
+
+Drag the .zip file into the extensions page
+
+Accept any pop-up prompts
+✅ You’re all set!
+
+🧩 Using the Extension
+Click the extension icon in your browser toolbar
+
+Use the checkboxes to toggle features:
+
+☑️ Block FYP
+
+☑️ Block New Tabs
+
+Settings are saved automatically and persist across sessions
+
+🛠️ Troubleshooting
+🔄 Refresh YouTube tabs after enabling FYP blocking
+
+🔁 Restart your browser if features aren't working
+
+✅ Double-check that both features are turned on in the popup
+
+📝 Notes
+⚠️ This extension is not on the Chrome Web Store
+
+🧪 Designed as a custom productivity tool
+
+🖥️ Compatible with all major Chromium-based browsers
