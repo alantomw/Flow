@@ -1,4 +1,4 @@
-# YouTube FYP & New Tab Blocker - Installation Instructions
+# YouTube Blocker - Installation Instructions
 
 ## Overview
 This Chrome extension provides two main features:
@@ -47,4 +47,3 @@ This Chrome extension provides two main features:
 
 ## Notes
 - This extension was created as a custom solution and is not available on the Chrome Web Store
-- The UI design follows the dark theme reference provided

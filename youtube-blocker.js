@@ -1,3 +1,6 @@
+// Browser compatibility
+const browserAPI = typeof browser !== 'undefined' ? browser : chrome;
+
 // YouTube FYP Blocker Content Script
 (function() {
   // Check if the feature is enabled from storage
@@ -13,13 +16,13 @@
   }
   
   // Initialize from storage
-  chrome.storage.sync.get(['youtubeBlockerEnabled'], function(result) {
+  browserAPI.storage.sync.get(['youtubeBlockerEnabled'], function(result) {
     youtubeBlockerEnabled = result.youtubeBlockerEnabled === true;
     toggleYouTubeBlocking(youtubeBlockerEnabled);
   });
   
   // Listen for changes to the setting
-  chrome.storage.onChanged.addListener(function(changes, namespace) {
+  browserAPI.storage.onChanged.addListener(function(changes, namespace) {
     if (changes.youtubeBlockerEnabled) {
       youtubeBlockerEnabled = changes.youtubeBlockerEnabled.newValue;
       toggleYouTubeBlocking(youtubeBlockerEnabled);

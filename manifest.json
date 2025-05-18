@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "YouTube FYP & New Tab Blocker",
+  "name": "YouTube Blocker",
   "version": "1.0",
   "description": "Blocks YouTube recommendations and prevents new tab creation",
   "permissions": [
@@ -12,7 +12,8 @@
     "*://*.youtube.com/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "type": "module"
   },
   "content_scripts": [
     {
