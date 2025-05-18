@@ -19,7 +19,7 @@ This extension provides two main features and works on all major Chromium-based 
 3. Drag and drop the `.zip` file onto the extensions page
 4. Confirm any prompts that appear
 
-## Using the Extension
+## 🧰 Using the Extension
 1. Click the extension icon in your browser toolbar to open the popup
 2. Use the checkboxes to toggle each feature on/off:
    - **Block FYP**: Hides recommendations, channels, and notifications on YouTube
