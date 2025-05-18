@@ -1,4 +1,4 @@
-# YouTube Blocker - Installation Instructions
+# 🎯 YouTube Blocker - Installation Instructions
 
 ## Overview
 This extension provides two main features and works on all major Chromium-based browsers (such as Chrome, Edge, Brave, Opera, and Vivaldi):
