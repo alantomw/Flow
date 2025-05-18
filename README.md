@@ -5,7 +5,7 @@ This extension provides two main features and works on all major Chromium-based 
 1. **YouTube FYP Blocker**: Hides video recommendations, channels, and notifications on YouTube while preserving search functionality
 2. **New Tab Blocker**: Automatically closes new tabs and returns to the previous tab (except for links that open in new tabs)
 
-## Installation Instructions
+## 🔧 Installation Instructions
 
 ### Method 1: Loading the unpacked extension (Developer mode)
 1. Open your Chromium-based browser (Chrome, Edge, Brave, Arc, Vivaldi, etc.) and navigate to `chrome://extensions/` (or your browser's extensions page)
@@ -26,7 +26,7 @@ This extension provides two main features and works on all major Chromium-based 
    - **Block New Tabs**: Prevents new tabs from being created (except for links)
 3. Settings are saved automatically and will persist between browser sessions
 
-## Features
+## ⚙️ Features
 - **YouTube FYP Blocking**:
   - Hides video recommendations on homepage and watch pages
   - Hides channel recommendations
@@ -40,11 +40,11 @@ This extension provides two main features and works on all major Chromium-based 
   - Exempts links that open in new tabs
   - Toggle on/off via popup
 
-## Troubleshooting
+## 🕵️ Troubleshooting
 - If the extension doesn't work after installation, try restarting your browser
 - Make sure both features are enabled in the popup
 - For YouTube blocking, refresh any open YouTube tabs after enabling the feature
 
-## Notes
+## 🗒️ Notes
 - This extension was created as a custom solution and is not available on the Chrome Web Store
 - Compatible with all major Chromium-based browsers (Chrome, Edge, Brave, Opera, Arc, Vivaldi, etc.)
