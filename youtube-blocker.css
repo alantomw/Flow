@@ -1,0 +1,41 @@
+/* YouTube FYP Blocker CSS */
+/* Hide video recommendations on homepage and sidebar */
+.ytd-fyp-blocker-enabled ytd-rich-grid-renderer,
+.ytd-fyp-blocker-enabled ytd-watch-next-secondary-results-renderer,
+.ytd-fyp-blocker-enabled ytd-shelf-renderer,
+.ytd-fyp-blocker-enabled ytd-horizontal-card-list-renderer,
+.ytd-fyp-blocker-enabled ytd-rich-section-renderer {
+  display: none !important;
+}
+
+/* Hide channel recommendations */
+.ytd-fyp-blocker-enabled ytd-guide-section-renderer:not(:first-child),
+.ytd-fyp-blocker-enabled ytd-mini-guide-renderer {
+  display: none !important;
+}
+
+/* Hide notifications */
+.ytd-fyp-blocker-enabled ytd-notification-topbar-button-renderer {
+  display: none !important;
+}
+
+/* Keep search functionality visible */
+.ytd-fyp-blocker-enabled ytd-searchbox,
+.ytd-fyp-blocker-enabled ytd-search {
+  display: block !important;
+}
+
+/* Keep header visible for navigation */
+.ytd-fyp-blocker-enabled ytd-masthead {
+  display: flex !important;
+}
+
+/* Keep subscriptions visible */
+.ytd-fyp-blocker-enabled ytd-guide-section-renderer:first-child {
+  display: block !important;
+}
+
+/* Keep video player visible on watch pages */
+.ytd-fyp-blocker-enabled ytd-watch-flexy #primary {
+  display: block !important;
+}
