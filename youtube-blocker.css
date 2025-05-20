@@ -38,4 +38,31 @@
 /* Keep video player visible on watch pages */
 .ytd-fyp-blocker-enabled ytd-watch-flexy #primary {
   display: block !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  flex: 1 1 100% !important;
+  margin-right: 0 !important;
 }
+
+.ytd-fyp-blocker-enabled ytd-watch-flexy #secondary {
+  display: none !important;
+}
+
+.ytd-fyp-blocker-enabled ytd-watch-flexy[flex-layout] #columns {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+}
+
+.ytd-fyp-blocker-enabled ytd-watch-flexy[flex-layout] #primary {
+  flex: 1 1 100% !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Optionally, hide only the right sidebar recommendations, not the whole sidebar */
+.ytd-fyp-blocker-enabled #related {
+  display: none !important;
+}
+
+/* Keep the video player and navigation bar visible and unmodified */

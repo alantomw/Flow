@@ -1,0 +1,131 @@
+body {
+  width: 220px;
+  margin: 0;
+  padding: 24px 0 24px 0;
+  background: #181818;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.container {
+  background: transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  padding-left: 16px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: #cccccc;
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 0;
+}
+
+.checkbox-label input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #666;
+  border-radius: 3px;
+  margin-right: 12px;
+  background: transparent;
+  display: inline-block;
+  position: relative;
+  transition: border-color 0.2s;
+}
+
+.checkbox-label input[type="checkbox"]:checked + .custom-checkbox {
+  border-color: #aaa;
+  background: #222;
+}
+
+.checkbox-label input[type="checkbox"]:checked + .custom-checkbox:after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 8px;
+  height: 14px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+h1 {
+  font-size: 18px;
+  color: #030303;
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.toggle-container {
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 12px;
+  color: #606060;
+  margin: 4px 0 0 36px;
+}
+
+/* Toggle Switch */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(16px);
+}
+
+.label {
+  font-size: 14px;
+  color: #030303;
+  vertical-align: super;
+} 
