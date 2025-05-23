@@ -1,12 +1,11 @@
 {
   "manifest_version": 3,
   "name": "Flow",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Blocks YouTube recommendations and prevents new tab creation",
   "permissions": [
     "storage",
-    "tabs",
-    "activeTab"
+    "tabs"
   ],
   "host_permissions": [
     "*://*.youtube.com/*"
