@@ -36,17 +36,20 @@ browserAPI.tabs.onCreated.addListener(async function(tab) {
 
   // Check if this is a new tab or about:blank
   const newTabUrls = [
-    'chrome://newtab/',
-    'edge://newtab/',
-    'brave://newtab/',
-    'opera://newtab/',
-    'vivaldi://newtab/',
-    'arc://newtab/',
+    'chrome://newtab',
+    'edge://newtab',
+    'brave://newtab',
+    'opera://newtab',
+    'vivaldi://newtab',
+    'arc://newtab',
     'about:blank'
   ];
 
   // Immediately close the tab if it matches any new tab URL
-  if (newTabUrls.includes(tab.pendingUrl) || newTabUrls.includes(tab.url)) {
+  const isNewTab = newTabUrls.some((url) =>
+    tab.pendingUrl?.startsWith(url) || tab.url?.startsWith(url)
+  );
+  if (isNewTab) {
     try {
       // First switch back to the last active tab
       if (lastActiveTabId !== null) {
