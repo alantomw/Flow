@@ -3,21 +3,16 @@ const browserAPI = typeof browser !== 'undefined' ? browser : chrome;
 
 // Background script for handling new tab blocking and YouTube FYP blocking
 let newTabBlockerEnabled = false;
-let youtubeBlockerEnabled = false;
 
 // Initialize settings from storage
-browserAPI.storage.sync.get(['newTabBlockerEnabled', 'youtubeBlockerEnabled'], function(result) {
+browserAPI.storage.sync.get(['newTabBlockerEnabled'], function(result) {
   newTabBlockerEnabled = result.newTabBlockerEnabled === true;
-  youtubeBlockerEnabled = result.youtubeBlockerEnabled === true;
 });
 
 // Listen for changes to settings
 browserAPI.storage.onChanged.addListener(function(changes, namespace) {
   if (changes.newTabBlockerEnabled) {
     newTabBlockerEnabled = changes.newTabBlockerEnabled.newValue;
-  }
-  if (changes.youtubeBlockerEnabled) {
-    youtubeBlockerEnabled = changes.youtubeBlockerEnabled.newValue;
   }
 });
 
