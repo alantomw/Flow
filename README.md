@@ -46,5 +46,5 @@ This extension provides two main features and works on all major Chromium-based 
 - For YouTube blocking, refresh any open YouTube tabs after enabling the feature
 
 ## 🗒️ Notes
-- This extension was created as a custom solution and is not available on the Chrome Web Store
+- This extension is only on the [Chrome Web Store](https://chromewebstore.google.com/detail/flow/odenofhkafaeedoohodgdndpeeadpndg?authuser=0&hl=en), however your browser most likely added support to download it
 - Compatible with all major Chromium-based browsers (Chrome, Edge, Brave, Opera, Arc, Vivaldi, etc.)
